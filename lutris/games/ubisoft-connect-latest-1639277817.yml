@@ -1,0 +1,10 @@
+game:
+  exe: drive_c/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/UbisoftConnect.exe
+  prefix: /home/lewdfoxxo/Games/ubisoft-connect
+system: {}
+wine:
+  dxvk: true
+  esync: true
+  overrides:
+    nvapi,nvapi64: disabled
+  version: files

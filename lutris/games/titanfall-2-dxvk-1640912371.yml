@@ -1,0 +1,20 @@
+game:
+  arch: win64
+  exe: drive_c/Program Files (x86)/Origin/Origin.exe
+  prefix: /home/lewdfoxxo/Games/titanfall-2
+system:
+  env:
+    DXVK_CONFIG_FILE: /home/lewdfoxxo/Games/titanfall-2/dxvk.conf
+    DXVK_HUD: compiler
+    DXVK_STATE_CACHE_PATH: /home/lewdfoxxo/Games/titanfall-2
+    STAGING_SHARED_MEMORY: '0'
+    __GL_SHADER_DISK_CACHE: '1'
+    __GL_SHADER_DISK_CACHE_PATH: /home/lewdfoxxo/Games/titanfall-2/nv-shaders
+  exclude_processes: QtWebEngineProcess.exe ActivationUI.exe OriginWebHelperService.exe
+wine:
+  dxvk: true
+  esync: true
+  overrides:
+    nvapi,nvapi64: disabled
+    xaudio2_7: native,builtin
+  version: lutris-fshack-6.21-6-x86_64

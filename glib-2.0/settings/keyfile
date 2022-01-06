@@ -1,0 +1,79 @@
+[org/gnome/nautilus/preferences]
+search-filter-time-type='last_modified'
+default-folder-viewer='icon-view'
+
+search-view='list-view'
+
+[org/gnome/nautilus/window-state]
+initial-size=(852, 512)
+maximized=false
+
+sidebar-width=241
+
+[org/gtk/settings/file-chooser]
+show-hidden=false
+
+window-position=(412, 93)
+window-size=(1096, 822)
+date-format='regular'
+location-mode='path-bar'
+show-size-column=true
+show-type-column=true
+sidebar-width=158
+sort-column='name'
+sort-directories-first=false
+sort-order='ascending'
+type-format='category'
+
+[org/gnome/desktop/interface]
+cursor-theme='Adwaita'
+
+gtk-theme='Layan-dark-solid'
+
+icon-theme='kora'
+
+font-name='SF Pro Text 10'
+monospace-font-name='SF Pro weight=112 10'
+
+[org/xfce/mousepad/state/application]
+
+[org/xfce/mousepad/state/window]
+width=640
+height=480
+maximized=false
+fullscreen=false
+
+[org/gtk/settings/color-chooser]
+selected-color=(true, 0.1803921568627451, 0.20392156862745098, 0.25098039215686274, 1.0)
+custom-colors=[(0.1803921568627451, 0.20392156862745098, 0.25098039215686274, 1.0), (0.75, 0.25, 0.25, 0.0), (0.14509803921568629, 0.14509803921568629, 0.17647058823529413, 1.0)]
+
+[org/bluesabre/mugshot]
+initials='JM'
+email=''
+fax=''
+
+[org/gnome/font-manager/font-viewer]
+window-position=(36, 150)
+window-size=(600, 400)
+
+[net/launchpad/plank/docks/dock1]
+offset=0
+pinned-only=false
+zoom-enabled=true
+hide-mode='intelligent'
+hide-delay=0
+alignment='fill'
+current-workspace-only=false
+unhide-delay=0
+tooltips-enabled=true
+dock-items=['org.xfce.Parole.dockitem', 'org.xfce.mousepad.dockitem', 'org.xfce.Parole-1.dockitem', 'firefox.dockitem', 'firefox-1.dockitem', 'applications.dockitem']
+lock-items=false
+monitor=''
+zoom-percent=139
+theme='Matte'
+items-alignment='start'
+show-dock-item=false
+pressure-reveal=false
+auto-pinning=true
+icon-size=42
+position='left'

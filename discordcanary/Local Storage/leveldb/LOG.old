@@ -1,0 +1,5 @@
+2021/12/28-03:59:33.690 ecc Creating DB /home/lewdfoxxo/.config/discordcanary/Local Storage/leveldb since it was missing.
+2021/12/28-03:59:33.693 ecc Reusing MANIFEST /home/lewdfoxxo/.config/discordcanary/Local Storage/leveldb/MANIFEST-000001
+2021/12/28-04:00:49.477 eb0 Level-0 table #5: started
+2021/12/28-04:00:49.482 eb0 Level-0 table #5: 128925 bytes OK
+2021/12/28-04:00:49.485 eb0 Delete type=0 #3
